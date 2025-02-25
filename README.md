@@ -99,13 +99,12 @@ The evaluation of Text-to-SQL systems is conducted using the following tools:
 If you use this work in your research, please cite the following paper:
 
 ```bibtex
-@inproceedings{
-anonymous2024confidence,
-title={Confidence Estimation for Error Detection in Text-to-{SQL} Systems},
-author={Oleg Somov, Elena Tutubalina},
-booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
-year={2025},
-url={https://openreview.net/forum?id=W6g7kK9kQW}
+@inproceedings{somov2025,
+  title={Confidence Estimation for Error Detection in Text-to-SQL Systems},
+  author={Somov, Oleg and Tutubalina, Elena},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  url={https://arxiv.org/abs/2501.09527},
+  year={2025}
 }
 ```
 
