@@ -1,0 +1,4 @@
+scikit-learn
+sqlite3
+sqlparse
+nltk
