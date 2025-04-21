@@ -99,12 +99,18 @@ The evaluation of Text-to-SQL systems is conducted using the following tools:
 If you use this work in your research, please cite the following paper:
 
 ```bibtex
-@inproceedings{somov2025,
-  title={Confidence Estimation for Error Detection in Text-to-SQL Systems},
-  author={Somov, Oleg and Tutubalina, Elena},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  url={https://arxiv.org/abs/2501.09527},
-  year={2025}
+@article{somov2025, 
+title={Confidence Estimation for Error Detection in Text-to-SQL Systems}, 
+volume={39}, 
+url={https://arxiv.org/abs/2501.09527}, 
+DOI={10.1609/aaai.v39i23.34699}, 
+abstractNote={Text-to-SQL enables users to interact with databases through natural language, simplifying the retrieval and synthesis of information. Despite the success of large language models (LLMs) in converting natural language questions into SQL queries, their broader adoption is limited by two main challenges: achieving robust generalization across diverse queries and ensuring interpretative confidence in their predictions. To tackle these issues, our research investigates the integration of selective classifiers into Text-to-SQL systems. We analyse the trade-off between coverage and risk using entropy based confidence estimation with selective classifiers and assess its impact on the overall performance of Text-to-SQL models. Additionally, we explore the models’ initial calibration and improve it with calibration techniques for better model alignment between confidence and accuracy. Our experimental results show that encoder-decoder T5 is better calibrated than in-context-learning GPT 4 and decoder-only Llama 3, thus the designated external entropy-based selective classifier has better performance. The study also reveal that, in terms of error detection, selective classifier with a higher probability detects errors associated with irrelevant questions rather than incorrect query generations.}, 
+number={23}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+author={Somov, Oleg and Tutubalina, Elena}, 
+year={2025}, 
+month={Apr.}, 
+pages={25137-25145}
 }
 ```
 
